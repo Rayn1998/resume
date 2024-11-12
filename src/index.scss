@@ -1,0 +1,56 @@
+@use "./components/header/Header.scss";
+@use "./components/socials/Socials.scss";
+@use "./components/projects/Projects.scss";
+@use "./components/tech-stack/TechStack.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    font-family: "Helvetica";
+    max-width: 100rem;
+    color: white;
+    background-color: black;
+    padding: 2rem;
+}
+
+.App {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.blue {
+    color: rgb(0, 103, 194);
+    font-weight: 50;
+}
+
+.body {
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.main_content {
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    // padding-top: 2rem;
+}
+
+.left {
+    max-width: 60%;
+    padding: 2rem;
+    object-fit: cover;
+    background-color: rgba(128, 128, 128, 0.1);
+    color: black;
+}
+
+.right {
+    padding: 2rem;
+}

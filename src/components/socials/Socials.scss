@@ -1,0 +1,22 @@
+.socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    padding: 2rem 0;
+    background-color: rgb(250, 238, 224);
+    color: black;
+
+    .social_unit {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-left: 10rem;
+        font-size: 1.5rem;
+
+        .social_unit_image {
+            width: 2rem;
+            object-fit: contain;
+        }
+    }
+}

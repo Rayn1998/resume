@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    gap: 20rem;
+    padding: 2rem;
+    background-color: rgb(85, 85, 85);
+
+    .header_avatar {
+        width: 16rem;
+        object-fit: contain;
+    }
+        
+    .header_text_block {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+        .header_name {
+            font-size: 4rem;
+        }
+        
+        .header_specialty, .header_description {
+            font-size: 2rem;
+        }
+    }
+}

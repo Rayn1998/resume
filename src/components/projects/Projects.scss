@@ -1,0 +1,15 @@
+.projects {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 3rem;
+
+    .project_name {
+        color: rgb(0, 53, 128);
+    }
+
+    .project_links {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,19 @@
+.tech-stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+
+    .technologie {
+        min-height: 3.5rem;
+        min-width: 10rem;
+        background-color: rgb(0, 99, 148);
+        border-radius: 1rem;
+        padding: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
